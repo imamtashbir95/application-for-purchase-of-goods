@@ -17,7 +17,8 @@ export default defineConfig({
         rollupOptions: {
             external: [
                 'bootstrap/dist/css/bootstrap.min.css',
-                'react-router-dom'
+                'react-router-dom',
+                '@mui/system'
             ],
         }
     }
