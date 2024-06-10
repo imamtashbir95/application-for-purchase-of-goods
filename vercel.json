@@ -6,6 +6,10 @@
         }
     },
     "routes": [
+        {   
+            "src": "/build/(.*)",
+            "dest": "/public/assets/"
+        },
         {
             "src": "/img/(.*)",
             "dest": "/public/img/"
