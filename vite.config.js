@@ -18,7 +18,12 @@ export default defineConfig({
             external: [
                 'bootstrap/dist/css/bootstrap.min.css',
                 'react-router-dom',
-                '@mui/system'
+                '@mui/system',
+                '@mui/base/TablePagination',
+                '@mui/icons-material/FirstPageRounded',
+                '@mui/icons-material/LastPageRounded',
+                '@mui/icons-material/ChevronLeftRounded',
+                '@mui/icons-material/ChevronRightRounded',
             ],
         }
     }
