@@ -3,7 +3,7 @@ import axios from 'axios';
 const token = localStorage.getItem('token');
 
 const api = axios.create({
-    baseURL: 'https://application-for-purchase-of-goods.vercel.app/api',
+    baseURL: '',
     // headers: {
     //     'Authorization': `Bearer ${token}`
     // },
