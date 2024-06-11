@@ -46,6 +46,7 @@
     ],
     "env": {
         "APP_ENV": "production",
+        "APP_KEY": "base64:so6vH0JD3X5CR6dfzmh+YsjqmVyftlF1WA5xF0bqTJQ=",
         "APP_DEBUG": "true",
         "APP_URL": "https://application-for-purchase-of-goods.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
