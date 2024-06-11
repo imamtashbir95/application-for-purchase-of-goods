@@ -11,11 +11,43 @@
             "dest": "/public/build/"
         },
         {
+            "src": "/app/(.*)",
+            "dest": "/public/app/"
+        },
+        {
+            "src": "/bootstrap/(.*)",
+            "dest": "/public/bootstrap/"
+        },
+        {
+            "src": "/config/(.*)",
+            "dest": "/config/img/"
+        },
+        {
+            "src": "/database/(.*)",
+            "dest": "/public/database/"
+        },
+        {
+            "src": "/dist/(.*)",
+            "dest": "/public/dist/"
+        },
+        {
+            "src": "/resources/(.*)",
+            "dest": "/public/resources/"
+        },
+        {
+            "src": "/routes/(.*)",
+            "dest": "/public/routes/"
+        },
+        {
+            "src": "/storage/(.*)",
+            "dest": "/public/storage/"
+        },
+        {
             "src": "/img/(.*)",
             "dest": "/public/img/"
         },
         {
-            "src": "/(.*)",
+            "src": "/public/(.*)",
             "dest": "/api/index.php"
         }
     ],
