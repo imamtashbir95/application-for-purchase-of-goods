@@ -59,6 +59,5 @@
         "SESSION_DRIVER": "cookie",
         "LOG_CHANNEL": "stderr",
         "PHP_VERSION": "8.0"
-    },
-    "outputDirectory": "public"
+    }
 }
