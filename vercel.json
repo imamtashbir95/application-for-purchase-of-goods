@@ -47,7 +47,7 @@
             "dest": "/public/img/"
         },
         {
-            "src": "/public/(.*)",
+            "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
